@@ -9,7 +9,7 @@ setTimeout(() => {
   icons[4].setAttribute('title', 'Github');
 }, 3000);
 
-// NAVIGATION MENU ---------------------------------------------------------
+// NAVIGATION MENU -------
 // const nav = document.getElementById("nav");
 // const menuIcon = document.querySelector(".menu-icon");
 
