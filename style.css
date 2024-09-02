@@ -153,7 +153,7 @@ nav.active {
   margin: 0;
 }
 
-/* SCROLL DOWN ANIMATION */
+/* SCROLL DOWN ANIMATION STYLES*/
 .mouse {
   width: 45px;
   height: 80px;
@@ -161,4 +161,17 @@ nav.active {
   border-radius: 60px;
   position: absolute;
   bottom: 20px;
+}
+
+.mouse::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border-radius: 50%;
+  opacity: 1;
 }
