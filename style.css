@@ -174,4 +174,12 @@ nav.active {
   background-color: white;
   border-radius: 50%;
   opacity: 1;
+  animation: wheelAnimation 2s infinite;
+}
+
+@keyframes wheelAnimation {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
 }
