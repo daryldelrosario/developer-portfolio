@@ -231,6 +231,10 @@ nav.active {
   color: black;
 }
 
+.icon-box i {
+  font-size: 50px;
+}
+
 .icon-box:nth-child(2) {
   background: #2A9D8F;
 }
