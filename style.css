@@ -250,3 +250,10 @@ nav.active {
 .icon-box:nth-child(5) {
   background: #E76F51;
 }
+
+/* PROJECT SECTION STYLES ------- */
+.projects-container {
+  text-align: center;
+  margin-bottom: 100px;
+  padding-top: 25px;
+}
