@@ -316,3 +316,13 @@ nav.active {
     background-color: #333;
   }
 }
+
+/* CONTACT SECTION STYLES */
+#contact {
+  --parallelowow-tile-width: 60;
+  --parallelowow-base-color: #ff5566;
+  --parallelowow-color-step: 0;
+  --parallelowow-probability: 0.25;
+  --parallelowow-stroke-weight: 0.5;
+  background: paint(parallelowow), var(--parallelowow-base-color);
+}
