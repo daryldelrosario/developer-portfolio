@@ -36,6 +36,12 @@ function switchImage() {
 setInterval(switchImage, 5000);
 
 // BANNER -------
+const bannerContent = document.getElementById("bannerContent");
+let messageHTML = '<span class="contact-message">Contact us at email@example.com - We\'re here to help!</span>';
+let repeatedMessage = messageHTML.repeat(10);
+
+// SET the repeated messages as the content 
+bannerContent.innerHTML = repeatedMessage + repeatedMessage; 
 
 // HOUDINI WORKLET ------- 
 CSS.paintWorklet.addModule("https://unpkg.com/parallelowow/parallelowow.js");
