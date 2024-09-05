@@ -34,3 +34,8 @@ function switchImage() {
 }
 
 setInterval(switchImage, 5000);
+
+// BANNER -------
+
+// HOUDINI WORKLET ------- 
+CSS.paintWorklet.addModule("https://unpkg.com/parallelowow/parallelowow.js");
