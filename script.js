@@ -10,18 +10,18 @@ setTimeout(() => {
 }, 3000);
 
 // NAVIGATION MENU -------
-// const nav = document.getElementById("nav");
-// const menuIcon = document.querySelector(".menu-icon");
+const nav = document.getElementById("nav");
+const menuIcon = document.querySelector(".menu-icon");
 
-// function toggleMenu() {
-//   nav.classList.toggle("active");
-//   menuIcon.classList.toggle("active");
-// }
+function toggleMenu() {
+  nav.classList.toggle("active");
+  menuIcon.classList.toggle("active");
+}
 
-// function hideMenu() {
-//   nav.classList.remove("active");
-//   menuIcon.classList.remove("active");
-// }
+function hideMenu() {
+  nav.classList.remove("active");
+  menuIcon.classList.remove("active");
+}
 
 // SLIDESHOW -------
 let currentImageIndex = 0;
