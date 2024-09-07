@@ -46,7 +46,7 @@ section {
 
 .menu-icon div {
   height: 0.25rem;
-  background-color: var(--on-background);
+  background-color: white;
   transition: all 0.3s ease-in-out;
 }
 
