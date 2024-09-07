@@ -31,7 +31,7 @@ section {
 } */
 
 /* NAVIGATION MENU STYLES */
-/* .menu-icon {
+.menu-icon {
   position: fixed;
   top: 15px;
   left: 15px;
@@ -48,18 +48,18 @@ section {
   height: 0.25rem;
   background-color: var(--on-background);
   transition: all 0.3s ease-in-out;
-} */
+}
 
 /* Rotate first bar */
-/* .active .bar1 {
+.active .bar1 {
   transform: translateY(0.6rem) rotate(-45deg);
-} */
+}
 
 /* Fade out the second bar */
-/* .active .bar2 {opacity: 0;} */
+.active .bar2 {opacity: 0;}
 
 /* Rotate last bar */
-/* .active .bar3 {
+.active .bar3 {
   transform: translateY(-0.75rem) rotate(45deg);
 }
 
@@ -101,7 +101,7 @@ nav ul li {
 
 nav.active {
   transform: translateX(0);
-} */
+}
 
 /* HOME SECTION STYLES ------- */
 #home {
