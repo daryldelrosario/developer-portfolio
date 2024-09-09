@@ -430,3 +430,52 @@ footer small {
   width: 100%;
   text-align: center;
 }
+
+/* MEDIA QUERIES ------- */
+/* ALL MOBILE DEVICES */
+@media screen and (max-width: 1180px) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  nav {
+    width: 100%;
+    background: black;
+  }
+}
+
+/* TABLET VERTICAL (LARGE) */
+@media screen and (orientation: portrait) and (max-width: 1180px) {
+  .about-grid {
+    width: 80vw;
+  }
+
+  .text-box {
+    width: 80vw;
+    padding: 50px;
+  }
+
+  .projects-grid {
+    margin: 0 10%;
+  }
+
+  .banner {
+    transform: rotate(0deg);
+  }
+}
+
+/* TABLET HORIZONTAL (LARGE) */
+@media screen and (min-width: 800px) and (max-width: 1180px) {
+  .about-grid {
+    width: 80vw;
+  }
+
+  .text-box {
+    width: 80vw;
+    padding: 50px;
+  }
+
+  .project-grid {
+    margin: 0 10%;
+  }
+}
