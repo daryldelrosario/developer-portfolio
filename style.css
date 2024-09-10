@@ -490,3 +490,14 @@ footer small {
     transform: rotate(0deg);
   }
 }
+
+/* SMARTPHONE HORIZONTAL */
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  .page-title h1 {
+    font-size: 2rem;
+  }
+
+  .banner {
+    bottom: 80px;
+  }
+}
