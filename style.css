@@ -442,6 +442,10 @@ footer small {
     width: 100%;
     background: black;
   }
+
+  nav ul {
+    padding-left: 0;
+  }
 }
 
 /* TABLET VERTICAL (LARGE) */
@@ -471,7 +475,6 @@ footer small {
   }
 
   .text-box {
-    width: 75ch;
     padding: 50px;
   }
 
@@ -504,11 +507,6 @@ footer small {
 
 /*  SMARTPHONE VERTICAL */
 @media screen and (max-width: 600px) {
-  nav ul {
-    position: relative;
-    left: -20px;
-  }
-
   .section-title h2 {
     font-size: 3rem;
   }
