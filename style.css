@@ -410,8 +410,9 @@ footer {
   justify-content: center;
 }
 
-.social-media-icons i {
+.social-media-icons a {
   cursor: pointer;
+  color: white;
   transition: all 0.2s ease-in-out;
 
   &:hover {
@@ -420,7 +421,7 @@ footer {
   }
 }
 
-.social-media-icons i:not(:first-child) {
+.social-media-icons a:not(:first-child) {
   margin-left: 10px;
 }
 
